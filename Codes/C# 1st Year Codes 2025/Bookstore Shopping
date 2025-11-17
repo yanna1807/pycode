@@ -78,6 +78,10 @@ public class HelloWorld
                                     Console.WriteLine($"The grand total of all purchases is {grandTotal}.00.");
                                     Console.WriteLine($"The stock left of {bookName} is {stock}.");
                                 }
+                                else if (quantity < 0)
+                                {
+                                    Console.WriteLine("Can't do that! Invalid Input of Number!");
+                                }
                                 else
                                 {
                                     // Use the quantity the user entered
